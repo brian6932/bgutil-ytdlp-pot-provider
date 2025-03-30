@@ -3,7 +3,7 @@
     "incremental": true,
     "outDir": "./build",
     "allowJs": true,
-    "target": "es2022",
+    "target": "ESNext",
     "module": "commonjs",
     "moduleResolution": "node",
     "baseUrl": ".",
@@ -20,5 +20,7 @@
     "skipLibCheck": true,
     "noUncheckedIndexedAccess": true
   },
-  "include": ["./src/**/*"]
+  "include": [
+    "./src/**/*"
+  ]
 }
